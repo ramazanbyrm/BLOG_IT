@@ -57,3 +57,26 @@ img {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
 }
 
+media (max-width: 768px) 
+{
+    nav ul {
+        flex-direction: column; /* Menü dikey şekilde sıralansın */
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 90%; /* Ekrana taşmasın */
+        height: auto;
+    }
+}
+
